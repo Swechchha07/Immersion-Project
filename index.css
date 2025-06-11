@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 30px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.progress-container {
+  margin-top: 20px;
+}
+
+.progress-bar {
+  width: 0%;
+  height: 20px;
+  background-color: #4caf50;
+  transition: width 2s linear;
+  border-radius: 5px;
+}
+
+.progress-wrapper {
+  width: 100%;
+  background-color: #ddd;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+}

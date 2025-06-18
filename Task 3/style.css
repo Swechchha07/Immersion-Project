@@ -1,0 +1,32 @@
+body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background: #f4f4f4;
+    }
+    #searchBar {
+      padding: 10px;
+      width: 250px;
+    }
+    #searchBtn {
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+    #productList {
+      margin-top: 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 20px;
+    }
+    .product {
+      background: white;
+      padding: 15px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      text-align: center;
+    }
+    .product img {
+      max-width: 100%;
+      height: 120px;
+      object-fit: cover;
+    }
+ 

@@ -1,1 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Product Search</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+  <h2>Search for Products</h2>
+  <input type="text" id="searchBar" placeholder="Enter product name">
+  <button id="searchBtn">Search</button>
+
+  <label for="sort">Sort by Price:</label>
+<select id="sort">
+  <option value="">None</option>
+  <option value="asc">Low to High</option>
+  <option value="desc">High to Low</option>
+</select>
+
+
+  <div id="productList"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
